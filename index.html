@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .heading {
+            background-color: rgb(194, 84, 101);
+            height: 8%;
+            width: 100%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .heading h1 {
+            color: rgb(145, 49, 55);
+            -webkit-text-stroke: 2px red;
+            font-size: 38px;
+        }
+
+        .sidearea {
+            height: 100vh;
+            width: 20vw;
+            background-color: rgb(194, 128, 139);
+            /* position: absolute; */
+            display: inline-block;
+        }
+
+        .box1 {
+            height: 35vh;
+            background-color: rgb(243, 222, 229);
+            margin: 15px;
+            border-radius: 10px;
+            display: flexbox;
+            justify-content: first baseline;
+            align-content: flex-start;
+        }
+
+        .lii {
+            list-style: none;
+        }
+
+        .lii ::before {
+            content: "🖤";
+        }
+
+        .lii li {
+            margin-left: 25px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .box1 h2 {
+            position: relative;
+            left: 10px;
+            top: 20px;
+            /* color: whitesmoke; */
+        }
+
+        .socials {
+            margin: 30px;
+            position: relative;
+            top: 80px;
+        }
+
+        .inst {
+            height: 48px;
+            border-radius: 24px;
+
+        }
+
+        a img {
+            margin: 12px;
+        }
+
+        .profile {
+            height: 100vh;
+            width: 80vw;
+            background-color: rgb(215, 207, 207);
+            display: flex;
+        }
+
+        .sec {
+            display: flex;
+        }
+
+        .profile img {
+            height: 30vh;
+            border-radius: 90%;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        .profile h1 {
+            position: relative;
+            top: 60px;
+            left: 80px;
+            font-size: 30px;
+        }
+
+        .pro {
+            transform: scale(1, 1);
+            transition: transform 0.5s ease;
+        }
+
+
+        .profile:hover .pro {
+            transform: scale(1.5, 1.5);
+        }
+
+        .profile p {
+            position: relative;
+            font-size: 63px;
+            top: 500px;
+            left: -195px;
+            font-family: cursive;
+            font-weight: bold;
+            color: red;
+            -webkit-text-stroke: 5px rgb(126, 53, 53);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>❤Valentines Day❤</h1>
+    </div>
+    <div class="sec">
+
+        <div class="sidearea">
+            <div class="box1">
+                <h2>About me</h2>
+                <ul class="lii">
+                    <li>20M</li>
+                    <li>Punjabi</li>
+                    <li>Virgo</li>
+                    <li>Agra,Uttar Pradesh</li>
+                    <li>Currently in Ranchi</li>
+                </ul>
+            </div>
+            <div class="box1">
+                <h2>Searching for someone to laugh with at all the wrong moments.</h2>
+                
+            </div>
+            <div class="socials">
+                <p>Social Media Profiles-</p>
+                <a href="https://www.instagram.com/"><img src="insta.png" alt="Instagram" class="inst"></a>
+                <a href="https://www.facebook.com/reg/"><img src="facebook.png" alt="Facebook" class="inst"></a>
+                <a href="https://x.com/i/flow/login?mx=2"><img src="twiiterX.png" alt="TwitterX" class="inst"></a>
+            </div>
+
+        </div>
+        <div class="profile">
+            <img src="Profile.jpg" alt="Profile Pic" class="pro">
+            <h1>Yash Kapoor</h1>
+            <p>Will you be my Valentine?</p>
+        </div>
+    </div>
+</body>
+
+</html>
